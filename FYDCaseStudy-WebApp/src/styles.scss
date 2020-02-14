@@ -49,8 +49,15 @@ h2 {
     }
 }
 h3 {
-    font-size: 3.5vw;
+    font-size: 4vw;
     font-weight: normal;
+    @media (orientation: landscape) {
+        font-size: 2vw;
+    }
+}
+h4 {
+    font-size: 4vw;
+    font-weight: lighter;
     @media (orientation: landscape) {
         font-size: 2vw;
     }

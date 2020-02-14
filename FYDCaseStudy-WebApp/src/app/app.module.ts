@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TitleComponent } from './title/title.component';
 import { TitledParagraphComponent } from './titled-paragraph/titled-paragraph.component';
+import { PersonaCardComponent } from './persona-card/persona-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TitleComponent,
-    TitledParagraphComponent
+    TitledParagraphComponent,
+    PersonaCardComponent
   ],
   imports: [
     BrowserModule,
