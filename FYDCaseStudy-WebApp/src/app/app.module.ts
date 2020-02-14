@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TitleComponent } from './title/title.component';
+import { TitledParagraphComponent } from './titled-paragraph/titled-paragraph.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TitleComponent
+    TitleComponent,
+    TitledParagraphComponent
   ],
   imports: [
     BrowserModule,

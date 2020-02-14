@@ -35,17 +35,35 @@ body {
     background-color: #1B1B1B;
 }
 h1 {
-    font-size: 4vw;
+    font-size: 6vw;
     font-weight: normal;
+    @media (orientation: landscape) {
+        font-size: 4vw;
+    }
 }
 h2 {
-    font-size: 2.5vw;
+    font-size: 6vw;
     font-weight: lighter;
+    @media (orientation: landscape) {
+        font-size: 2.5vw;
+    }
 }
 h3 {
-    font-size: 2vw;
+    font-size: 3.5vw;
     font-weight: normal;
+    @media (orientation: landscape) {
+        font-size: 2vw;
+    }
 }
+p {
+    font-size: 4vw;
+    // font-size: 11pt;
+    font-weight: normal;
+    @media (orientation: landscape) {
+        font-size: 2vw;
+    }
+}
+
 
 * {
     color: #707070;
