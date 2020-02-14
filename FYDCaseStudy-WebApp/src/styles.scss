@@ -56,6 +56,11 @@ p {
     font-size: calc(11pt + (28 - 11) * ((100vw - 300px) / (1600 - 300)));
     font-weight: normal;
 }
+.p-quote {
+    font-size: calc(10pt + (26 - 10) * ((100vw - 300px) / (1600 - 300)));
+    font-style: italic;
+    font-weight: lighter;
+}
 
 
 * {
