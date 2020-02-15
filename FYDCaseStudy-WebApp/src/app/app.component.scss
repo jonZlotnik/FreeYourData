@@ -16,4 +16,10 @@
     padding: 6vw;
     z-index: 100;
     box-shadow: 0 0 10px black;
+    display: flex;
+    flex-flow: column nowrap;
+    #meet-the-users-container {
+        display: flex;
+        flex-flow: row wrap;
+    }
 }
