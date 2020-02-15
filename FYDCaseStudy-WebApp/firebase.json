@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site":"uxui-design-jonzlotnikca",
+    "public": "dist/FYDCaseStudy-WebApp",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
