@@ -1,16 +1,32 @@
 
 .persona-container {
     width: 100%;
-    max-width: 800px;
     background-color: #2C2C2C;
-    .persona-top-half {
-        border-bottom: 2px solid #5A5A5A;
-        margin: 0;
+    .persona-icon-container {
+        border-radius: 100%;
+        border: red thin solid;
+        width: 10vw;
+        height: 10vw;
+        position: absolute;
+        left: 10%;
     }
-    .persona-bottom-half {
-        margin: 0;
-        p {
-            font-style: italic;
+    .persona-text-container {
+        display: flex;
+        flex-flow: column nowrap;
+        .persona-top-half {
+            flex: 1 0 15vw;
+            border-bottom: 2px solid #5A5A5A;
+            margin: 0;
+            display: flex;
+            align-items: flex-end;
+        }
+        .persona-bottom-half {
+            flex: 1 0 15vw;
+            margin: 0;
+            p {
+                font-style: italic;
+            }
         }
     }
+    
 }
